@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Roboto:300,400');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+
+}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+    background-image: linear-gradient(-225deg, #ffffff 0%,rgb(13, 184, 254) 100%);
+    background-image: linear-gradient(rgba(255, 230, 0, 0.096), rgba(255, 148, 219, 0.144),rgba(13, 186, 254, 0.144) );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+.card{
+	margin: 5%;
+	min-width: 25em; /* 400px */
+	height: 37.5em; /* 600px */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 20px; /* 20px */
+	transform: translate(-50%, -50%);
+	box-shadow: 0  0 3px 5px  rgba(31, 30, 29, 0.096);
+}
+.user__card {
+	margin: 5%;
+	min-width: 25em; /* 400px */
+	height: 37.5em; /* 600px */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 20px; /* 20px */
+	transform: translate(-50%, -50%);
+	box-shadow: 0  0 3px 5px  rgba(31, 30, 29, 0.096);
+}
+.bg {
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	background-color: #fcfcfc;
+	position: relative;
+	border-radius: 20px  0 0 0  ;
+}
+.bg .perfil {
+	display: inline-block;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	position: relative;
+  	background: #141414;
+	border: 4px solid rgb(13, 184, 254);
+	top: 50px;
+	overflow: hidden;
+	z-index: 10;
+}
+.bg .perfil i {
+  color: #fff;
+  font-size: 10.7em;
+
+}
+
+.user__card:hover .bg .perfil::after {
+	right: 130%;
+	transition: all 0.45s linear;
+	transition-delay: 0.4s;
+	
+}
+.user__card:hover .bg .perfil i {
+	transform: scale(1.1);
+  transition: all .25s ease;
+}
+.bg .aside {
+	width: 30px;
+	height: 100%;
+	line-height: 7em;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 1.5em;
+	color: rgb(255, 255, 255);
+	background: #fcfcfc;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	z-index: -1;
+	background: linear-gradient(to right, #fff 0%, #fff 1%, rgb(255, 215, 20) 5%, rgb(255, 215, 20) 100%);
+}
+.user__card .bg .aside,
+.user__card:hover .bg .aside{
+	transition: all 0.3s ease;
+}
+.user__card:hover .bg .aside {
+	right: -30px;
+	transition-delay: 0.35s;
+}
+.main__content {
+	width: 100%;
+	height: 70%;
+	color: rgb(0, 0, 0);
+	position: relative;
+	left: 0;
+	overflow: hidden;
+}
+.upper__card,
+.down__card {
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	left: 0;
+	background: #fcfcfc;
+	z-index: 2;
+	border-radius: 0 0 20px  20px ;
+
+
+}
+
+
+.info {
+	padding-top: 70px;
+	text-align: center;
+	
+
+}
+.info h3 {
+	font-size: 3.5em;
+	margin-bottom: 8px;
+}
+
+.desc{
+	text-align: justify;
+	margin: 5% 5% 0 5% ;
+}
+
+.down__card {
+	padding-top: 70px;
+	background: #fcfcfc;
+	z-index: 1;
+}
+.down__card .bio {
+	margin: 0 auto;
+	width: 80%;
+	height: 100%;
+	text-align: center;
+}
+.down__card .bio h3 {
+	margin: 12px 0;
+	text-align: center;
+  	color: #000;
+}
+.down__card .bio p {
+	text-align: justify;
+	
+}
+.down__card .bio p:nth-child(5) {
+	margin: 15px 0;
+	padding: 15px;
+}
+.down__card .bio p:nth-child(5) a {
+	font-size: 1.2em;
+	padding: 15px;
+}
+.down__card .bio p:nth-child(6) {
+	margin-top: 20px;
+}
+.btn {
+	width: 45%;
+    height: 47px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 15px;
+    color:white;
+    transition: all 0.4s ease;
+    background-color:  rgb(254, 1, 130);
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+  
+
+}
+.btn:hover {
+	transform: scale(1.1, 1.1);
+	background-color: rgb(13, 186, 254);
+	color: white;
+}
+
+.price ins {
+    color: rgb(13, 184, 254);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ .price .price-info {
+    color: rgb(13, 184, 254);
+    display: block;
+    font-weight: bold;
+    margin-top: 5px;
+}

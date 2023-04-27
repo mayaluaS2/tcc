@@ -1,0 +1,74 @@
+body {
+  background: rgb(255, 215, 20);  font-family: "Poppins", sans-serif;;
+}
+h1 {
+  position: relative;
+  text-align: center;
+  color: #353535;
+  font-family: "Poppins", sans-serif;
+  margin: 2% auto;
+}
+
+.logo{
+  text-align: center;
+  margin: 10% 0 auto;
+}
+
+p {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  color: #414141;
+}
+.frame {
+  width: 20%;
+  margin:2% auto;
+  text-align: center;
+}
+
+.custom-btn {
+  display: inline-block;
+  color: #ffffff;
+  width: 100px;
+  height: 50px;
+  background:rgb(13, 184, 254);
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+  margin: 5% auto;
+  letter-spacing: 0.1em;
+  
+}
+
+.custom-btn {
+  width: 48%;
+  float: left;
+  margin-left: 2%;
+}
+
+/* 15 */
+.btn-15 {
+  background: rgb(254, 1, 162);
+  border: none;
+}
+.btn-15:hover {
+  transform: scale(1.1, 1.1);
+  background-color: rgb(13, 184, 254);
+  color: white;
+  box-shadow: none;
+}
+
+/* 16 */
+.btn-16 {
+  border: none;
+  background-color: rgb(13, 184, 254);
+}
+.btn-16:hover {
+  transform: scale(1.1, 1.1);
+  background-color: rgb(254, 1, 130);
+  color: white;;
+  box-shadow: none;
+}
